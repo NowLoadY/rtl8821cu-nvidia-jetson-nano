@@ -1,3 +1,6 @@
+这个仓库是[CSDN](https://blog.csdn.net/qq_44712946/article/details/133147369?spm=1001.2014.3001.5501)文章的资源备份
+
+
 在Jetson Nano上直接编译会失败，因为在系统中还做了一些修改。可以clone后，用 sudo make install 直接安装使用。
 
 我刚买了Tenda U9，算比较便宜，在WIN系统上正常，速度还可以。但在JETSON NANO上没有驱动可用，驱动是为x86_64设计的。 直接编译不成功，我用非常笨拙的方法修改了下，编译成功，使用正常。 请参考 https://github.com/MingxuZhang/rtl8821cu 里的安装方法。重点是：
